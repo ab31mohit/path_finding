@@ -1,4 +1,4 @@
-# path_finding
+# Path Finding
 Path planning with different graph algorithms in 2dgrid using pygame.     
 - Repository Structure
 ```bash
@@ -10,12 +10,12 @@ Path planning with different graph algorithms in 2dgrid using pygame.
 │   ├── gridMap.png           
 │   └── path_plan_demo.mp4     # demonstration of using the plan_path.py file
 ├── path_plan_algorithms/
-│   ├── astar.py                            # A* algo
-│   ├── bfs.py                              # BFS algo  
-│   ├── dfs.py                              # DFS algo
-│   ├── dijkstra.py                       # Dijkstra algo
-│   └── pygame_visualize.py      # visualizing grid & colors on pygamw window
-├── path_plan.py                         # main file to run the project
+│   ├── astar.py               # A* algo
+│   ├── bfs.py                 # BFS algo  
+│   ├── dfs.py                 # DFS algo
+│   ├── dijkstra.py            # Dijkstra algo
+│   └── pygame_visualize.py    # visualizing grid & colors on pygamw window
+├── path_plan.py               # main file to run the project
 └── README.md
 ```
 
@@ -49,36 +49,17 @@ python3 path_plan.py
 `TURQUOISE` color --> `END` node    
 `PURPLE` color --> `Path`
 
-<!-- <div align="left">
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-        <img src="media/gridMap.png" width="500" />
-        <p>Grid Map after adding osbtacles & (start, end) point</p>
-    </div> -->
-
 <!-- GIF Demonstrations -->
-<div align="left">
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-        <img src="media/astar.gif" width="500" />
-        <p>path planning with A*</p>
-    </div>
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-        <img src="media/dijkstra.gif" width="500" />
-        <p>path planning with dijkstra</p>
-    </div>
-</div>      
-<div align="left">
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-        <img src="media/bfs.gif" width="500" />
-        <p>path planning with BFS</p>
-    </div>
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-        <img src="media/dfs.gif" width="500" />
-        <p>path planning with DFS</p>
-    </div>
-</div>
+|          A* Algorithm            |       Dijkstra Algorithm         |
+|----------------------------------|----------------------------------|
+|![GIF 1](media/astar.gif)         |![GIF 2](media/dijkstra.gif)      |
 
+|         BFS Algorithm            |       DFS Algorithm              |
+|----------------------------------|----------------------------------|
+|![GIF_3](media/bfs.gif)           |![GIF_4](media/dfs.gif)           |
+                                
 ## Demonstration:
-Here is a video that demonntrates how to use the instructions in *plan_path.py* file for    
+Here is a video that demonstrates how to use the instructions in *plan_path.py* file for    
 - defining (start, end) points
 - creating obstacles
 - running different algorithms
